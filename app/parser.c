@@ -1,6 +1,7 @@
 #include "super/parser.h"
 #include "super/scope.h"
 #include "super/token.h"
+#include "super/syntax.h"
 #include <stdio.h>
 #include <string.h>
 
@@ -223,7 +224,7 @@ syntax_T* parseString(parser_T* parser, scope_T* scope)
 
 syntax_T* parseId(parser_T* parser, scope_T* scope)
 {
-    if (strcmp(parser->current->value, "var") == 0)
+    if (strcmp(parser->current->value, "def") == 0)
         return variable(parser, scope);
 
     if (strcmp(parser->current->value, "function") == 0)
