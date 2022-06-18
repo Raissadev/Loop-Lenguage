@@ -20,4 +20,13 @@ clean:
 	-rm *.out
 	-rm *.o
 	-rm app/*.o
-	
+
+build:
+	-chmod 777 app/*.o
+	-chmod 777 *.out
+	-rm *.out
+	-rm *.o
+	-rm app/*.o
+
+	make
+	cp ./loop.out /usr/local/bin/loop
