@@ -49,6 +49,11 @@ function example(a, b)
 example("hello", "world");
 ```
 
+## Test file
+```
+$ ./loop.out <filepath>
+```
+
 
 ## Author
 Raissa Daros - raissa.fullstack@gmail.com - https://github.com/Raissadev/
