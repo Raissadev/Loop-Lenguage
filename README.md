@@ -7,20 +7,22 @@ I introduce everyone to the LOOP programming language. This language was created
 For now it does not support recursion, much less object orientation and there are no arithmetic operations. But as I said earlier, it is still in development.
 If you were curious about the name, I gave it that name because I got stuck in loops hahaha.
 
+- Obs: can only be used in a linux environment!
+
 ## Installation
-Install (on linux)
+Install
 ```
 $ sudo make install
 ```
 
 ## Clean
-Clean (on linux)
+Clean
 ```
 $ sudo make clean
 ```
 
 ## Build
-Clean and Install (on linux)
+Clean and Install
 ```
 $ sudo make build
 ```
