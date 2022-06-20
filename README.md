@@ -61,4 +61,4 @@ $ ./loop.out <filepath>
 Raissa Daros - raissa.fullstack@gmail.com - https://github.com/Raissadev/
 
 ## License
-This component is licensed under the MIT License
+This component is licensed under the MIT License.
