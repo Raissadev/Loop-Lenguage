@@ -61,7 +61,7 @@ function example(a, b)
     print(b);
 };
 
-example("hello", "world");
+example("don't panic", "42");
 ```
 
 ## Test file
